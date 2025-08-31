@@ -1,13 +1,25 @@
 .first_section{
     font-family: sans-serif;
     background-color: #1f2937;
+    padding-left: 50px;
+    padding-right: 100px;
 }
 
 .first_section .header{
     display:flex
+    
 }
 
-.first_section .header p{
-    color: white;
-    flex:1
+.first_section .header .Header_Logo{
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+    flex:3
+}
+
+.first_section .header .Header_Link{
+    color: #E5E7EB;
+    font-size: 18px;
+    padding-top: 10px;
+    flex:1;
 }
