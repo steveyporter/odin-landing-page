@@ -23,3 +23,37 @@
     padding-top: 10px;
     flex:1;
 }
+
+
+.first_section .Hero{
+    display:flex
+    
+}
+
+.first_section .Hero .Hero_Main_Text{
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+    
+}
+
+.first_section .Hero .Hero_Secondary_Text{
+    color: #E5E7EB;
+    font-size: 18px;
+    
+}
+
+.Hero_Button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    
+}
+
+.first_section .Hero .Hero_Left{
+    flex:1
+}
+
+.first_section .Hero .Hero_Right{
+    flex:1
+}
