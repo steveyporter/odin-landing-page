@@ -57,3 +57,11 @@
 .first_section .Hero .Hero_Right{
     flex:1
 }
+
+.second section{
+
+}
+
+.second section div img{
+    border-color: blue;
+}
