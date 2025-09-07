@@ -61,7 +61,7 @@
 }
 
 .second_section{
-    height: 600px;
+    /* height: 600px; */
     text-align: center;
 }
 
@@ -95,4 +95,9 @@
     padding: 0px 20px;
     margin: 0px 20px;
     
+}
+
+.third_section{
+    background-color: #E5E7EB;
+    height: 500px;
 }
