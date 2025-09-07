@@ -60,14 +60,33 @@
     flex:1
 }
 
-.second section{
-
+.second_section{
+    height: 600px;
+    text-align: center;
 }
 
-.{
-
+.s2_Images_Container{
+    display:flex;
+    justify-content: center;
 }
 
-.second section div img{
+.s2_Images_Container_Item{
+    max-width: 100px;
+    height: auto;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 10px;
     border-color: blue;
+    margin: 20px;
+    
 }
+
+
+.s2_Images_Container_Item div{
+
+}
+
+.s2_Images_Container_Item div div p{ 
+    align-items: end;
+}
+
