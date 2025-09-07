@@ -65,28 +65,34 @@
     text-align: center;
 }
 
-.s2_Images_Container{
+.s2_Images_Container_1{
     display:flex;
     justify-content: center;
 }
 
-.s2_Images_Container_Item{
-    max-width: 100px;
-    height: auto;
-    padding: 20px;
+.s2_Images_Container_1_Item{
+    flex: 0 1 0;
+    min-width: 100px;
+    max-width: 150px;
+    height: 100px;
+    padding: 0px 20px;
     border-style: solid;
     border-radius: 10px;
     border-color: blue;
-    margin: 20px;
+    margin: 0px 20px;
     
 }
-
-
-.s2_Images_Container_Item div{
-
+.s2_Images_Container_2{
+    display:flex;
+    justify-content: center;
 }
 
-.s2_Images_Container_Item div div p{ 
-    align-items: end;
+.s2_Images_Container_2_Item{
+    flex: 0 1 0;
+    min-width: 100px;    
+    max-width: 150px;
+    height: auto;
+    padding: 0px 20px;
+    margin: 0px 20px;
+    
 }
-
