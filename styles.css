@@ -98,6 +98,26 @@
 }
 
 .third_section{
+    display: flex;
     background-color: #E5E7EB;
+    color: grey;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
     height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.third_section_item{
+    flex: 0 0 auto;
+    text-wrap: wrap;
+    width: 600px;
+}
+
+.third_section_item .quote_name{
+    justify-self: flex-end;
+    color: black;
+    font-style:normal;
+    font-size: 24px;
 }
